@@ -1,0 +1,45 @@
+.about {
+  padding: 80px 2rem;
+  background: white;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #1a202c;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  color: #718096;
+  margin-bottom: 3rem;
+  line-height: 1.8;
+}
+
+.about-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.feature {
+  padding: 2rem;
+}
+
+.feature h3 {
+  font-size: 2.5rem;
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.feature p {
+  color: #718096;
+  font-weight: 500;
+}
