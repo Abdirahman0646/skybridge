@@ -18,12 +18,11 @@ const Header = () => {
       <div className="container">
         <div className="logo">
           <h2 className="gradient-heading">SkyBridge</h2>
-           {/*<img 
+           {/* <img 
             src={LogoIcon}
             alt="Skybridge IT Logo" 
             className="logo-icon" 
-            />*/}
-         
+          /> */}
         </div>
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <button 
