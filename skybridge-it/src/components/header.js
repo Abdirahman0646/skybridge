@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './header.css';
-import LogoIcon from '../skbrglogo.webp';
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,12 +18,7 @@ const Header = () => {
       <div className="container">
         <div className="logo">
           <h2 className="gradient-heading">SkyBridge</h2>
-           {/*<img 
-            src={LogoIcon}
-            alt="Skybridge IT Logo" 
-            className="logo-icon" 
-            />*/}
-         
+           
         </div>
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <button 
